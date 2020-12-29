@@ -1,7 +1,7 @@
 package com.retail.myRetail.restservice;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.retail.myRetail.DataLayer.Price;
+import com.retail.myRetail.DataLayer.domain.Price;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class APIResponse {

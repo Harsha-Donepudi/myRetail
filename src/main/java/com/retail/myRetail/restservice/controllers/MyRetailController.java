@@ -1,15 +1,14 @@
-package com.retail.myRetail.restservice;
+package com.retail.myRetail.restservice.controllers;
 
-import com.retail.myRetail.DataLayer.RetailPriceServiceImpl;
+import com.retail.myRetail.DataLayer.services.RetailPriceServiceImpl;
+import com.retail.myRetail.restservice.APIResponse;
+import com.retail.myRetail.restservice.HelperFunctions;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import com.retail.myRetail.DataLayer.Price;
-import com.retail.myRetail.DataLayer.RetailPriceService;
+import com.retail.myRetail.DataLayer.domain.Price;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class MyRetailController {

@@ -1,4 +1,4 @@
-package com.retail.myRetail.DataLayer;
+package com.retail.myRetail.DataLayer.domain;
 
 import org.springframework.data.annotation.Id;
 

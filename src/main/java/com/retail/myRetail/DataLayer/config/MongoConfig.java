@@ -1,4 +1,4 @@
-package com.retail.myRetail.DataLayer;
+package com.retail.myRetail.DataLayer.config;
 
 import java.io.IOException;
 import cz.jirutka.spring.embedmongo.EmbeddedMongoFactoryBean;

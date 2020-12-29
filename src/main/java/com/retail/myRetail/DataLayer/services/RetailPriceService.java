@@ -1,4 +1,6 @@
-package com.retail.myRetail.DataLayer;
+package com.retail.myRetail.DataLayer.services;
+
+import com.retail.myRetail.DataLayer.domain.Price;
 
 public interface RetailPriceService {
   Iterable<Price> listAll();

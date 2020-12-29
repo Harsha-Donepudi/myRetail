@@ -1,5 +1,7 @@
-package com.retail.myRetail.DataLayer;
+package com.retail.myRetail.DataLayer.services;
 
+import com.retail.myRetail.DataLayer.domain.Price;
+import com.retail.myRetail.DataLayer.repositories.RetailPriceRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

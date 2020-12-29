@@ -1,8 +1,7 @@
 package com.retail.myRetail;
 
-import com.retail.myRetail.DataLayer.Price;
-import com.retail.myRetail.DataLayer.RetailPriceService;
-import com.retail.myRetail.DataLayer.RetailPriceServiceImpl;
+import com.retail.myRetail.DataLayer.domain.Price;
+import com.retail.myRetail.DataLayer.services.RetailPriceServiceImpl;
 import com.retail.myRetail.restservice.APIResponse;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -17,15 +16,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import static org.junit.Assert.assertEquals;
-
-
-import static org.hamcrest.Matchers.equalTo;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
 @AutoConfigureMockMvc
